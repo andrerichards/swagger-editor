@@ -81,6 +81,14 @@ SwaggerEditor.controller('HeaderCtrl', function HeaderCtrl($scope, $uibModal,
     return !defaults.disableFileMenu;
   };
 
+  $scope.showPreferencesMenu = function() {
+    return !defaults.disablePreferencesMenu;
+  };
+
+  $scope.showHelpMenu = function() {
+    return !defaults.disableHelpMenu;
+  };
+
   $scope.showHeaderBranding = function() {
     return defaults.headerBranding;
   };

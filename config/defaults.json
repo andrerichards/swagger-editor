@@ -10,7 +10,7 @@
       "id": "UA-51231036-1"
     }
   },
-  "disableCodeGen": true,
+  "disableCodeGen": false,
   "examplesFolder": "spec-files/",
   "editorOptions": {
     "theme": "ace/theme/atom_dark"
@@ -33,11 +33,9 @@
   "keyPressDebounceTime": 200,
   "backendEndpoint": "/editor/spec",
   "useYamlBackend": false,
-  "disableFileMenu": true,
-  "disablePreferencesMenu": true,
-  "disableHelpMenu": true,
+  "disableFileMenu": false,
   "headerBranding": false,
-  "disableNewUserIntro": true,
+  "disableNewUserIntro": false,
   "enableTryIt": true,
   "brandingCssClass": "",
   "importProxyUrl": "https://cors-it.herokuapp.com/?url=",

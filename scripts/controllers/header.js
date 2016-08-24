@@ -85,14 +85,6 @@ SwaggerEditor.controller('HeaderCtrl', function HeaderCtrl($scope, $uibModal,
     return defaults.headerBranding;
   };
 
-  $scope.showPreferencesMenu = function() {
-    return !defaults.disablePreferencesMenu;
-  };
-
-  $scope.showHelpMenu = function() {
-    return !defaults.disableHelpMenu;
-  };
-
   $scope.newProject = function() {
     FileLoader.loadFromUrl('spec-files/guide.yaml').then(function(value) {
       $rootScope.editorValue = value;

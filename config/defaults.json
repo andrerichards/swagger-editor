@@ -34,6 +34,7 @@
   "backendEndpoint": "/editor/spec",
   "useYamlBackend": false,
   "disableFileMenu": false,
+  "disablePreferencesMenu": false,
   "headerBranding": false,
   "disableNewUserIntro": false,
   "enableTryIt": true,
